@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Build output
+build/
+dist/
+out/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Text editor backups
+*.bak
+*.swp
+
+# Temporary testing or debugging files
+*.tmp
+*.log
+
+# Secret files
+.env
+
+# Coverage reports
+coverage/
+
+# TypeScript
+# Source maps
+*.js.map
+
+# Compiled JavaScript (adjust extension if needed)
+*.js
+
+# Type checking output
+*.d.ts
+
+# Linter output
+*.lint
+
+# Specific files or folders
+# You can also add specific files or folders here to exclude them from version control.
+# For example:
+# specific_file.txt
+# specific_folder/
