@@ -10,6 +10,6 @@ export const placeOrder = async (order: Order) => {
         return result.rows[0];
     } catch (error) {
         console.error(error);
-        throw new Error('Failed to place order');
+        throw new Error(`Failed to place order: ${error}`);
     }
 };
